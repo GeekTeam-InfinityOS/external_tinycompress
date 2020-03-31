@@ -21,7 +21,7 @@ cc_library_shared {
         "generated_kernel_headers",
     ],
     product_variables: {
-        aosp: {
+        infinity-10: {
             supports_extended_compress_format: {
                 cflags: ["-DENABLE_EXTENDED_COMPRESS_FORMAT"],
             },
